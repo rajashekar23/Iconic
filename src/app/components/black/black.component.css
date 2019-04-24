@@ -1,0 +1,16 @@
+.title h4{
+    /* background-image: url("../../../assets/bg.svg"); */
+    /* background-color: #3B7DBC; */
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: lightgrey
+}
+.titl{
+    background-color: #343E49;
+    border-radius: 0 0 0.5em 0.5em;
+    
+}
