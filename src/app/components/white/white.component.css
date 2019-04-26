@@ -1,9 +1,17 @@
 i{
     border-radius: 100%;
-    padding:20px;
+    display: block;
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    width: 64px;
+    height: 64px;
+    line-height: 64px;
 }
 #twi{
-    background-color: #389ebc
+    background-color: #389ebc;
+    
+   
 }
 #fac{
     background-color: #3876bc
