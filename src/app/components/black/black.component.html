@@ -66,4 +66,13 @@
         <h4 style="margin:auto;padding:20px 20px;">Has been a lot of carrots</h4>
     </div>
 </div>
+<div class="row">
+  <div *ngFor='let item of products'>
+    <ul>
+      <li>{{item.name}}</li>
+      <li>{{item.pdid}}</li>
+      <li>{{item.price}}</li>
+    </ul>
+  </div> 
+</div>
 

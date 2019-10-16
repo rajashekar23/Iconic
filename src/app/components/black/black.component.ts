@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { DemoservService } from '../demoserv/demoserv.service';
 
 @Component({
   selector: 'app-black',
@@ -6,8 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./black.component.css']
 })
 export class BlackComponent implements OnInit {
+  @Input()
+  products: any = [];
 
-  constructor() { }
+
+constructor( private demoServ2: DemoservService ) {
+    this.getItems();
+   }
+   getItems() {
+     this.products = this.demoServ2.getItems();
+   }
 
   ngOnInit() {
   }
